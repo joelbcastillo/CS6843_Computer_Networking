@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/jocastillo/.local/share/virtualenvs/CS6843_Computer_Networking-DWd9FN84/bin/python"
+    "python.pythonPath": "/Users/jocastillo/.local/share/virtualenvs/CS6843_Computer_Networking-DWd9FN84/bin/python",
+    "python.formatting.provider": "black"
 }
