@@ -1,3 +1,10 @@
+Joel Benjamin Castillo (jc5383)  
+CS6843 - Computer Networking  
+Prof. Rafail Portnoy  
+<p align=center><strong>Lab 2: SMTP Client Lab</strong></p>
+
+## Python Code (`main.py`)
+```python
 from socket import socket, AF_INET, SOCK_STREAM
 from os import getenv, environ
 
@@ -239,3 +246,26 @@ def main():
 
 if __name__ == '__main__':
     main()
+```
+
+## `.env` File
+```bash
+DEBUG=True
+SERVER=127.0.0.1
+PORT=25
+MAIL_SENDER=sender@cyberfellows.nyc
+MAIL_RECIPIENT=joel.castillo@nyu.edu
+MSG_CONTENT="Hello, World!"
+```
+
+## Client Output
+<img src="client_output.png" />
+
+## Server Message Log
+<img src="server_list.png" />
+
+## Server SMTP Log
+<img src="server_log.png" />
+
+## Email Message
+<img src="email_message.png" />
